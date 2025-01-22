@@ -168,7 +168,7 @@
 }
 
 /* ..............section ............. */
-.body{
+body>section{
     width: 80%;
     margin: 0 auto;
 }
@@ -327,11 +327,15 @@ hr{
 /* ................Footer ............ */
 .footer{
     background-color: #01ACFD;
+    
 }
 .footer-container{
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 80px 0;
+    width: 80%;
+    margin: 0 auto;
 }
 .footer-logo{
     display: flex;
@@ -345,6 +349,8 @@ hr{
     align-items: center;
     background: #fff;
     margin-top: 40px;
+    width: 80%;
+    margin: 0 auto;
 }
 .scrolling-text span{
     display: inline-block;
@@ -367,6 +373,7 @@ marquee{
         margin-top: 15px;
         width: 500px;
         text-align: center;
+        display: block;
     }
     .nav-two{
         display: none;
@@ -403,7 +410,7 @@ marquee{
         grid-template-columns: repeat(2,.5fr);
         grid-template-rows: repeat 30px 30px;
         gap: 5px;
-        margin: 40px 0;
+        /* margin: 10px 0; */
     }
     .footer-container{
         display: grid;
@@ -416,5 +423,6 @@ marquee{
     .footer3{
         margin-top: 40px;
     }
+    
 
 }
