@@ -190,6 +190,12 @@ section{
     gap: 30px;
     display: flex;
 }
+.nav-icon {
+    display: none;
+}
+hr{
+    display: none;
+}
 /*............. Banner..........  */
 .banner-section{
     display: flex;
@@ -367,6 +373,9 @@ marquee{
     }
     .nav-three{
         display: none;
+    }
+    .nav-icon {
+        display: block;
     }
     .banner-text{
         display: none;
