@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Quicksand", serif; */
+/* font-family: "Raleway", serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ...........button.......... */
+.main-button{
+    background-color: #FEA301;
+    border: none;
+    border-radius:10px;
+    padding: 10px 60px;
+}
+.main-button a{
+    color: #ffff;
+    background-color: transparent;
+    text-decoration: none; 
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.enroll-button{
+    background-color: #0d0801;
+    border: none;
+    border-radius:10px;
+    padding: 10px 47px;
+}
+.enroll-button a{
+    color: #ffff;
+    background-color: transparent;
+    text-decoration: none; 
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.view-button{
+    background-color: #090601;
+    border: none;
+    border-radius:10px;
+    padding: 10px 61px;
+}
+.view-button a{
+    color: #ffff;
+    background-color: transparent;
+    text-decoration: none; 
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.date-large-button{
+    background-color: #3CD8E8;
+    border: none;
+    border-radius:30px;
+    padding: 15px 20px;
+    font-family: "Raleway", serif;
+    color: #ffff;
+    font-size: .9rem;
+    font-weight: 400;
+}
+.date-small-button{
+    background-color: #95B226;
+    border: none;
+    border-radius:30px;
+    padding: 10px 20px;
+    font-family: "Raleway", serif;
+    color: #ffff;
+    font-size: .9rem;
+    font-weight: 400;
+}
+/* ............text........... */
+.banner-text{
+    font-family: "Quicksand", serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0E0E0E;
+}
+.banner-first-point{
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #FEA301;
+}
+.banner-second-point{
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #01ACFD;
+}
+.banner-third-point{
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #05D4DF;
+}
+.banner-forth-point{
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #5D58EF;
+}
+.banner-tittle{
+    font-family: "Quicksand", serif;
+    font-size: 3.5rem;
+    font-weight:800;
+    color: #04030c;
+}
+.banner-description-text{
+    font-family: "Quicksand", serif;
+    font-size: 1.rem;
+    font-weight: 800;
+    color: #04030c;
+}
+.tittle-text{
+    font-family: "Quicksand", serif;
+    font-size: 2.85rem;
+    font-weight: 800;
+    color: #04030c;
+}
+.point-text{
+    font-family: "Quicksand", serif;
+    font-size: 1.50rem;
+    font-weight: 800;
+    color: #04030c;
+}
+.description-text{
+    font-family: "Raleway", serif;
+    font-size: .8rem;
+    font-weight: 400;
+    color: #808080;
+}
+.card-text{
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #04030c;
+}
+.Footer-tittle{
+    font-family: "Quicksand", serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+.footer-description-text{
+    font-family: "Quicksand", serif;
+    font-size: .7rem;
+    font-weight: 300;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: #ffffff;
+}
+.footer-point-text{
+    font-family: "Quicksand", serif;
+    font-size: 1.60rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+.footer-items-text{
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* ..............section ............. */
+.body{
+    width: 80%;
+    margin: 0 auto;
+}
+section{
+    padding: 30px 0;
+}
+/* ...........Nav .......... */
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.nav-one{
+    display: flex;
+    align-items: center;
+}
+.nav-two{
+    gap: 30px;
+    display: flex;
+}
+/*............. Banner..........  */
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-text-section{
+    width: 550px;
+}
+.Empowering{
+    color: #FEA301;
+}
+.vision{
+    color: #01ACFD;
+}
+.banner-description-text{
+    margin-top: 20px;
+}
+.enroll-button {
+    margin-top: 20px;
+}
+/* .............Curriculum........... */
+.curriculum{
+    background-image: url(assets/bg.png);
+}
+.tittle-text{
+    text-align: center;
+}
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+}
+.card-section img{
+    width: 40%;
+}
+.card-section .card-1{
+    border-radius: 15px;
+    padding: 40px 20px;
+    background: linear-gradient(to top,rgb(255, 255, 255), #FFF4DC);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+}
+.card-section .card-2{
+    padding: 45px 20px;
+    border-radius: 15px;
+    background: linear-gradient(to top,rgb(255, 255, 255), #DEF5FF);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+}
+.card-section .card-3{
+    padding: 40px 20px;
+    border-radius: 15px;
+    background: linear-gradient(to top,rgb(255, 255, 255), #F2E8FF);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+}
+.icon{
+    text-align: center;
+    margin-top: 50px;
+}
+/* .................Stories ................. */
+.stories{
+    background-image: url(assets/bg.png);
+    background: linear-gradient(to bottom,rgb(255, 255, 255), #fdfaf3);
+
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1.5,250px) 50px 50px;
+    gap: 5px;
+    margin: 40px 0;
+}
+.box{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.box img{
+    border-radius: 10px 10px 0 0;
+}
+#box-1{
+    grid-row:span 2;
+    position: relative;
+}
+.stories-date{
+    position: absolute;
+    top:310px;
+    left: 30px;
+}
+.box1-text{
+    padding: 25px 20px;
+}
+#box-2{
+    position: relative;
+}
+.stories-date2{
+    position: absolute;
+    top:160px;
+    left: 20px;
+}
+#box-3{
+    position: relative;
+}
+.stories-date2{
+    position: absolute;
+    top:160px;
+    left: 20px;
+}
+#box-4{
+    position: relative;
+}
+.stories-date2{
+    position: absolute;
+    top:160px;
+    left: 20px;
+}
+#box-5{
+    position: relative;
+}
+.stories-date2{
+    position: absolute;
+    top:160px;
+    left: 20px;
+}
+.viewall-button{
+    text-align: center;
+}
+/* ................Footer ............ */
+.footer{
+    background-color: #01ACFD;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 80px 0;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-social-logo{
+    margin-top: 20px;
+}
+.scrolling-text{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    margin-top: 40px;
+}
+.scrolling-text span{
+    display: inline-block;
+    background: #f00;
+    padding: 8px 20px;
+    color: #ffff;
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    font-weight: 800;
+}
+marquee{
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 576px) {
+    hr{
+        color: #FEA301;
+        margin-top: 15px;
+        width: 500px;
+        text-align: center;
+    }
+    .nav-two{
+        display: none;
+    }
+    .nav-three{
+        display: none;
+    }
+    .banner-text{
+        display: none;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .card-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+        text-align: center;
+        margin-top: 50px;
+        align-items: center;
+    }
+    .icon{
+        display: none;
+    }
+    #box-1{
+        display: none;
+    }
+    .container{
+        display:grid;
+        grid-template-columns: repeat(2,.5fr);
+        grid-template-rows: repeat 30px 30px;
+        gap: 5px;
+        margin: 40px 0;
+    }
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 80px 0;
+    }
+    .footer2{
+        margin-top: 40px;
+    }
+    .footer3{
+        margin-top: 40px;
+    }
+
+}
